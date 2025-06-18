@@ -2,6 +2,8 @@
 This R-code is written for absolute beginners who are using RStudio for the first time and have no prior knowledge of the R language. It creates a three-way bar plot with ANOVA and Tukey's HSD for a specified dependent variable (DV) from a dataset, using standard  error (SE) for error bars, dynamic y-axis limits, and adaptive  letter placement. Prints ANOVA grand mean, CV%, summary table, and Tukey HSD critical difference. A data file "df.csv" is given to practise the code. 
 
 # Getting Started with RStudio: Step-by-Step Instructions
+Run this line of code only for one time if packages have not been installed: 
+install.packages(c("ggplot2", "dplyr", "multcompView"))
 Follow these simple steps to run the 3-way anova and bar plot script using RStudio:
 i. Make sure both 3wayBarPlot_df.R (the R script) and df.csv (your data file) are saved in a folder named aov on the E: drive of your computer.
 ii. Launch RStudio: Go to File > Open File. Navigate to: Computer > E: > aov > 3wayBarPlot_df.R
