@@ -11,8 +11,15 @@ iii. Click Open > Run the Script
 iv. Once the script is open in RStudio, press Ctrl + A to select all the code > Click Run to execute the script.
 
 # Usage of this R-code for your own data
-Your data file must be in .csv format (like an Excel sheet saved as .csv). The file should be named "df.csv". The structure of your data (column names and layout) should match the example file "df.csv" included with this folder. The script "3wayBarPlot_df.R" as explained earlier; go to line 30 in the script: change the variable name there to the one you want to analyze from your own data. Then go to line 31: change the label (in quotes) to what you want to appear on the Y-axis, including the unit (e.g., "Plant Height (cm)").
-
+Your data file must be in .csv format (like an Excel sheet saved as .csv). The file should be named "df.csv". The structure of your data (column names and layout) should match the example file "df.csv" included with this folder. The script "3wayBarPlot_df.R" as explained earlier; go to line 30 in the script: change the variable name there to the one you want to analyze from your own data. Then go to line 31: change the label (in quotes) to what you want to appear on the Y-axis, including the unit (e.g., "Plant Height (cm)"). 
+# The example data file uses three grouping factors: 
+“treat” for x-axis, "stress" as bar-color and "var" as panel. 
+i. Your data may have different three factors
+ii. Open the script file, use Ctrl + F (Find) to search for the words: stress, treat, and var.
+iii. Replace each one with the names of the three factors in your own data, aiming which one you want to take on x-axis, which should be appeared as bar-colors etc.
+# Important Note for the Last Factor: “var” in the example:
+It is used to split the plot into groups (called facets). Go to line 114 in the code, and update it based on the levels (categories) of your last factor which you want to use to split the graphs into panels according to the categories of your last factor. For example, if your last factor has levels like "Hybrid1" and "Hybrid2", you should adjust line 114 accordingly.
+ 
 ## 📜 License
 This project is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.
 
