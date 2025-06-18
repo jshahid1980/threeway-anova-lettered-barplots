@@ -10,7 +10,7 @@ You are free to:
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit to the author:
-  > Dr. Muhammad Jamil, Department of Botany, The Islamia University of Bahawalpur, Pakistan.
+  > Muhammad Jamil, Department of Botany, The Islamia University of Bahawalpur, Pakistan.
    
   > Cite this repository when using the code or data.
 - **NonCommercial** — You may **not** use this material for commercial purposes.
